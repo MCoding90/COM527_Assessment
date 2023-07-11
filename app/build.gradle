@@ -53,4 +53,5 @@ dependencies {
     implementation 'com.github.kittinunf.fuel:fuel:2.3.1'
     implementation 'com.github.kittinunf.fuel:fuel-android:2.3.1'
     implementation 'com.github.kittinunf.fuel:fuel-json:2.3.1'
+    implementation 'androidx.fragment:fragment-ktx:1.6.0'
 }

@@ -1,5 +1,6 @@
 package com.example.maciejczerwonka
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao
@@ -8,7 +9,7 @@ interface stopDAO {
     fun getStopByID(id: Long): STOP
 
     @Query("SELECT* FROM stop")
-    fun getAllStops(): List <STOP>
+    fun getAllStops(): LiveData<List<STOP>>
 
     @Query("DELETE FROM stop")
     fun deleteAllStops()
