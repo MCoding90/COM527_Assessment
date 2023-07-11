@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MaciejCzerwonka</string>
+    <string name="addBus_Stop">Add A Bus Stop</string>
+    <string name="tvroutenumber">Route</string>
+    <string name="tvbuscompany">Company</string>
+    <string name="tvfinaldestination">Final Destination</string>
+    <string name="addBusStopbtn">Add Bus Stop at current location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="preferences">Preferences</string>
+</resources>

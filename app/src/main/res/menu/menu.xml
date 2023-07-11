@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/addBusStop" android:title="@string/addBus_Stop" />
+    <item android:id="@+id/saveAllStops" android:title="Save All Bus Stops" />
+    <item android:id="@+id/preferences" android:title="Preferences" />
+    <item android:id="@+id/loadStops" android:title="Load Stops saved locally" />
+    <item android:id="@+id/loadWebStops" android:title="Load Stops saved from Web" />
+</menu>

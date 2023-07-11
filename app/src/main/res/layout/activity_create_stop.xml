@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvroutenumber"
+        android:text="@string/tvroutenumber"
+        android:textSize="12pt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/etroutenumber"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvbuscompany"
+        android:text="@string/tvbuscompany"
+        android:textSize="12pt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/etbuscompany"
+        app:layout_constraintTop_toBottomOf="@id/tvroutenumber"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfinaldestination"
+        android:text="@string/tvfinaldestination"
+        android:textSize="12pt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/etfinaldestination"
+        app:layout_constraintTop_toBottomOf="@id/tvbuscompany"
+        />
+
+    <EditText
+        android:id="@+id/etroutenumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="6pt"
+        app:layout_constraintLeft_toRightOf="@id/tvroutenumber"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="6pt"
+        android:id="@+id/etbuscompany"
+        app:layout_constraintLeft_toRightOf="@id/tvbuscompany"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etroutenumber"
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="6pt"
+        android:id="@+id/etfinaldestination"
+        app:layout_constraintLeft_toRightOf="@id/tvfinaldestination"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etbuscompany"
+        />
+
+
+    <Button
+        android:id="@+id/addBusStopbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/addBusStopbtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etfinaldestination" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
